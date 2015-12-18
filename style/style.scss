@@ -1,0 +1,114 @@
+.clearfix {
+  display: inline-block;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic,cyrillic-ext);
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+  font-family: Verdana;
+  font-size: 14px;
+  position: relative;
+}
+
+* {
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.ul_s {
+  margin-bottom: 45px;
+  p {
+    font-weight: bold;
+  }
+  ul {
+    list-style-type: square;
+    ul {
+      list-style-type: circle;
+    }
+  }
+}
+
+P {
+  margin-bottom: 10px;
+}
+
+html, body {
+  height: 100%;
+}
+
+header {
+  padding: 30px 0;
+  border-bottom: 3px solid;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, .page-wrap:after {
+  height: 142px;
+}
+
+.site-footer {
+  margin-top: 25px;
+  .content{
+    border-top: 3px solid;
+    padding-top: 15px;
+    .adres{
+      float: left;
+    }
+    .tel{
+      float: right;
+    }
+  }
+}
+
+.content {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  div{
+    font-size: 12px;
+    width: 25%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 5%;
+  }
+
+}
